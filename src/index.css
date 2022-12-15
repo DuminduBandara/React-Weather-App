@@ -10,6 +10,10 @@
   /* font-family: 'Open Sans', sans-serif; */
 }
 
+main{
+  min-height:100vh;
+}
+
 .sign{
   width:250px;
 }
@@ -68,6 +72,22 @@ video{
   margin:0 auto;
   align-items:center;
   border-radius:20px;
+}
+
+@media only screen and (max-width: 590px){
+  .overlay-bottom{
+    width:300px;
+  }
+  video{
+     min-height:150vh;
+  }
+
+}
+
+@media only screen and (max-width: 280px){
+  .overlay-bottom{
+    width:250px;
+  }
 }
 
 .bottom{

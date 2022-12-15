@@ -146,7 +146,7 @@ const App = () => {
                   <p className="bottom-txt">Humidity</p>
                 </div>
                 <div className='wind'>
-                  {data.main ? <p>{data.wind.speed}MPH</p>: null}
+                  {data.main ? <p>{data.wind.speed} MPH</p>: null}
                   <p className="bottom-txt">Wind</p>
                 </div>
               </div>
